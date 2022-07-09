@@ -1,0 +1,25 @@
+{
+  "name": "stepn-utils",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublish": "yarn test",
+    "doc": "typedoc"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "decimal.js": "^10.3.1",
+    "typedoc": "^0.22.12"
+  },
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.3",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  },
+  "license": "MIT"
+}

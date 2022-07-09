@@ -1,0 +1,5 @@
+{
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.ts"],
+  "coveragePathIgnorePatterns": ["node_modules", "<rootDir>/src/index.ts"]
+}
